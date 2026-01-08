@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doraemon: The Complete Journey</title>
+    <style>
+        :root {
+            --dora-blue: #0096da;
+            --nobita-yellow: #FFEB3B;
+            --shizuka-pink: #E91E63;
+            --gian-orange: #FF9800;
+            --suneo-cyan: #03A9F4;
+            --paper: #fdfaf0;
+        }
+
+        body {
+            background: #1a1a1a;
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        .book-container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: var(--paper);
+            padding: 50px;
+            border-radius: 5px;
+            box-shadow: 0 0 50px rgba(0,0,0,0.5);
+            border-left: 30px solid #5d4037;
+            position: relative;
+        }
+
+        .wiki-header {
+            border-bottom: 2px solid #333;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+        }
+
+        .wiki-header h1 { font-size: 45px; margin: 0; color: var(--dora-blue); }
+
+        .chapter {
+            margin-bottom: 50px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background: white;
+            border-radius: 10px;
+            line-height: 1.6;
+        }
+
+        h2 { color: #d32f2f; border-bottom: 1px solid #eee; margin-top: 0; }
+
+        .char-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .char-card {
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            color: white;
+        }
+
+        .tears-anim {
+            display: inline-block;
+            animation: drop 2s infinite;
+            color: var(--dora-blue);
+        }
+
+        @keyframes drop {
+            0% { transform: translateY(0); opacity: 0; }
+            50% { opacity: 1; }
+            100% { transform: translateY(20px); opacity: 0; }
+        }
+
+        .farewell-banner {
+            background: #000;
+            color: gold;
+            padding: 40px;
+            text-align: center;
+            border-radius: 15px;
+            margin-top: 50px;
+            border: 2px solid gold;
+        }
+
+        .sticker {
+            position: absolute;
+            padding: 5px 15px;
+            background: #fff176;
+            transform: rotate(-5deg);
+            font-weight: bold;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+
+<div class="book-container">
+    <div class="sticker" style="top:20px; right:30px;">Ref: Wikipedia Jan 2026</div>
+
+    <div class="wiki-header">
+        <h1>Doraemon: Ek Safar</h1>
+        <p>Manga Start: Dec 1969 | Anime 1979-2026 | Legacy Farewell: 2026</p>
+    </div>
+
+    <div class="chapter">
+        <h2>1. Doraemon Ka Itihas (Origin)</h2>
+        <p>
+            Doraemon ek robot cat hai jo 22nd century se aaya hai. Uska janm **Matsushiba Robot Factory** mein hua tha. 
+            Asliyat mein Doraemon ka rang **Yellow** tha aur uske kaan the, lekin ek robotic mouse ne uske kaan kha liye. 
+            Is dard se wo itna roya ki uski yellow skin nikal gayi aur wo **Blue** ho gaya. 
+            Use **Sewashi Nobi** (Nobita ka great-great-grandson) ne past mein bheja taaki wo Nobita ki galtiyan sudhar sake.
+        </p>
+    </div>
+
+    <div class="chapter">
+        <h2>2. Nobita aur uske Dost (Main Characters)</h2>
+        <div class="char-grid">
+            <div class="char-card" style="background: var(--nobita-yellow); color: #333;">
+                <strong>Nobita Nobi</strong><br>Co-protagonist jo padhai mein kamzor hai par shooting aur string figure mein mahir hai.
+            </div>
+            <div class="char-card" style="background: var(--shizuka-pink);">
+                <strong>Shizuka Minamoto</strong><br>Nobita ki best friend jise bathing aur sweet potatoes pasand hain.
+            </div>
+            <div class="char-card" style="background: var(--gian-orange);">
+                <strong>Takeshi "Gian" Goda</strong><br>Bully jiska gaana sabke liye nightmare hai par wo doston ka sath deta hai.
+            </div>
+            <div class="char-card" style="background: var(--suneo-cyan);">
+                <strong>Suneo Honekawa</strong><br>Rich spoiled kid jo apne gadgets dikhata hai par dil ka bura nahi hai.
+            </div>
+        </div>
+        <p style="margin-top: 20px;">
+            Supporting roles mein **Dorami** (Doraemon ki behen) aur **Hidetoshi Dekisugi** (Nobita ka intelligent rival) shamil hain.
+        </p>
+    </div>
+
+    <div class="chapter">
+        <h2>3. Magical Tools (Iconic Gadgets)</h2>
+        <p>Doraemon ke 4-dimensional pocket mein futuristic department store ke hazaron tools hain:</p>
+        <ul>
+            <li><strong>Anywhere Door (Doko Demo Doa):</strong> Kahin bhi pal bhar mein pahunchne ke liye.</li>
+            <li><strong>Bamboo Copter (Take-copter):</strong> Aasmaan mein udne ke liye.</li>
+            <li><strong>Time Machine:</strong> Nobita ki desk drawer ke andar jo past aur future le jati hai.</li>
+            <li><strong>Big Light/Small Light:</strong> Kisi bhi cheez ka size badalne ya chota karne ke liye.</li>
+        </ul>
+    </div>
+
+    <div class="farewell-banner">
+        <h2 style="color: gold; border: none;">2026: The Final Farewell 😢</h2>
+        <p>Doraemon anime ka ek lamba safar jo 1979 se chala, ab 2026 mein officially end ho raha hai.</p>
+        <p>"Doraemon ab future laut raha hai kyunki Nobita ab apna rasta khud chunne ke layak ho gaya hai."</p>
+        <div style="font-size: 40px;">👋 <span class="tears-anim">💧</span></div>
+        <p style="font-size: 14px; margin-top: 20px;">Shukriya humara bachpan magical banane ke liye. Alvida!</p>
+    </div>
+
+    <p style="text-align: center; margin-top: 30px; font-size: 12px; color: #888;">
+        Project Created by: <strong>LAXMI SANAS</strong> | Sources: Wikipedia & Doraemon Fandom (List of Characters)
+    </p>
+</div>
+
+</body>
+</html>
