@@ -1,7 +1,7 @@
 📔 Doraemon: The 2026 Farewell Tribute
 Bachpan ka safar (1969-2026) ab ek emotional mod par hai. Yeh project ek interactive web tribute hai jo Doraemon ki legacy ko celebrate karta hai.
 
-📖 Key Highlights
+🚀 Key Highlights
 The Origin: Matsushiba Robot Factory mein janm aur yellow skin ka blue hona.
 
 The Squad: Detailed profiles of Nobita, Shizuka, Gian, aur Suneo.
@@ -19,7 +19,7 @@ Takeshi "Gian" Goda: Strong bully jo doston ke liye hamesha khada rehta hai.
 
 Suneo Honekawa: Ameer ladka jo gadgets flaunt karna pasand karta hai.
 
-🛠️ Tech
+🛠️ Tech Stack
 HTML5 & CSS3: For scrapbook design aur crying animations.
 
 📜 Sources
